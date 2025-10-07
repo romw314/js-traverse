@@ -1,6 +1,7 @@
 # gitignore
 
 node_modules/
+dist/
 
 # Only apps should have lockfiles
 npm-shrinkwrap.json
@@ -8,3 +9,4 @@ package-lock.json
 yarn.lock
 
 .npmignore
+.parcel-cache/
